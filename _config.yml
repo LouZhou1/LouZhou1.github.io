@@ -1,5 +1,5 @@
 title: Lou Zhou
-author: "Jorge Sanz"
+author: "Lou Zhou"
 
 theme: minima
 
@@ -21,9 +21,6 @@ header_pages:
   - _pages/frontpage.md
   - _pages/about.md
   - _pages/archive.md
-
-include:
-    - _pages
 
 exclude: 
     - .gitignore
