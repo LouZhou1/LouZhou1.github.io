@@ -1,7 +1,7 @@
 ---
-permalink: /archive
+permalink: /projects
 layout: page
-title: Blog archive
+title: Projects
 ---
 
 
