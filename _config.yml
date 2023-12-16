@@ -22,7 +22,7 @@ header_pages:
   - _pages/blog.md
   - _pages/projects.md
 include:
-  - _pages
+    - _pages
 exclude: 
     - .gitignore
     - docker-compose.yml
