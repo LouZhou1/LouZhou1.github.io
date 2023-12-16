@@ -1,23 +1,7 @@
 ---
-title: "Tutorial I: my first post"
-date: 2020-03-18
+title: "How Does the difference in Field Dimension affect the directness of a soccer team?"
+date: 2023-16-12
 layout: post
 ---
 
-This is **my very first post**!! I can write
-
-* unnumbered
-* fancy
-* lists
-
-But also
-
-1. numbered
-1. ones
-1. easily
-
-Images
-
-![a gif!](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
-
-And so on...
+https://docs.google.com/document/d/1gmiQM4YiE16j-CoCVYgjDATduJqqWGBpVQ6jqRox_pc/edit
