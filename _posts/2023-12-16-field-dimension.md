@@ -14,4 +14,4 @@ To find out, we look to compare the average passing distance of manager’s team
 
 Using a play-by-play dataset describing the 2017-2018 Premier League Season, we can use Python and the library Pandas to find every single pass, successful or unsuccessful, made during the 17-18 season:
 
-![AllPasses](/assets/FieldPitchaAnalysis/FieldPitchdf1.png)
+![AllPasses](/assets/FieldPitchAnalysis/FieldPitchdf1.png)
