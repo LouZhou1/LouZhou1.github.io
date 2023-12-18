@@ -1,5 +1,5 @@
 ---
-title: "How Does the difference in Field Dimension affect the directness of a soccer team?"
+title: "How Field Dimension affect the Directness of a Soccer Team?"
 date: 2023-12-16
 layout: post
 ---
