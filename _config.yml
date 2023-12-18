@@ -23,12 +23,11 @@ header_pages:
   - _pages/frontpage.md
   - _pages/blog.md
   - _pages/projects.md
-  - title: test
-    url: /
 include:
     - _pages
     - projects
     - Lou_Zhou_Resume.pdf
+    - assets
 exclude: 
     - .gitignore
     - docker-compose.yml
