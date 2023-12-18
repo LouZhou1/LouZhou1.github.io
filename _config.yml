@@ -25,6 +25,8 @@ header_pages:
   - _pages/projects.md
 include:
     - _pages
+    - projects
+    - Lou_Zhou_Resume.pdf
 exclude: 
     - .gitignore
     - docker-compose.yml
