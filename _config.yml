@@ -23,8 +23,8 @@ header_pages:
   - _pages/frontpage.md
   - _pages/blog.md
   - _pages/projects.md
-  - title: Resume
-    url: _pages/Lou_Zhou_Resume.pdf
+  - title: test
+    url: /
 include:
     - _pages
     - projects
