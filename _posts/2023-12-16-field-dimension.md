@@ -77,6 +77,7 @@ Mean: +0.216 meters
 To ensure that playing away was not the driving factor between the changes in distances, we look at the passing distance for teams when playing at stadiums of the same field pitch size as their home stadium. While there are notable differences in passing sizes, those differences do not fully account for all of the change when looking at fields of different sizes, with the mean when playing away on the same dimensions of 0.218 meters being much smaller than the means while playing on longer and shorter fields of 1.06 and -1.82 meters respectively. 
 
 *Discussion*
+
 Through our analysis of passing distance, it was found field length, especially when playing on shorter fields, had a notable effect on the directness and indirectness of a teams playing style, where teams playing on longer fields were more likely to play more direct passes while teams playing on shorter fields were more likely to play shorter, more indirect passes. This effect follows since teams playing on longer fields have more space to play longer, more direct passes, while teams playing on shorter fields have less space, leading to shorter, more indirect passes. 
 
 For width, it was unreasonable to draw real conclusions because of the small number of Premier League stadiums that are different widths from the standard Premier League width of 68 meters, however it is more than likely that the width has had a negligible effect on directness of play.
