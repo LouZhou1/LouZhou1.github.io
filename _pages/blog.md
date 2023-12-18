@@ -3,5 +3,4 @@ permalink: /blog
 layout: home
 title: Blog
 ---
-
-![](https://www.jorgesanz.net/assets/imgs/me/jsanz_small4.png)
+In my blog, I tackle problems that may not be big enough to warrant a full scale project but I think are interesting nonetheless.
