@@ -34,5 +34,5 @@ To measure the difficulty of the shot, I created an expected points metric(simil
 
 For each player, their per-shot values were combined to create a metric called DAWG(Daggers Adequately Winning Game), which quantified a player's ability to hit last-second, high-importance shots with the potential to change the outcome of a game. 
 
-This project was a result of a semester-long independent study during my senior year at Memphis University School. It was mostly created for fun, with the DAWG name being a reference to the "Got That Dog in Him" meme in referencing advanced analytics in basketball, but this project was given financial backing by my high school, Memphis University School, and I was able to give a [presentation]({https://www.musowls.org/news-detail?pk=1414630#}){:target="_blank"} on my findings in front of the entire student body
+This project was a result of a semester-long independent study during my senior year at Memphis University School. It was mostly created for fun, with the DAWG name being a reference to the "Got That Dog in Him" meme in referencing advanced analytics in basketball, but this project was given financial backing by my high school, Memphis University School, and I was able to give a [presentation](https://www.musowls.org/news-detail?pk=1414630#){:target="_blank"} on my findings in front of the entire student body
 
