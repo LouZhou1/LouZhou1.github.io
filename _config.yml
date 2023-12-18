@@ -23,7 +23,7 @@ header_pages:
   - _pages/frontpage.md
   - _pages/blog.md
   - _pages/projects.md
-  - Lou_Zhou_Resume.pdf
+  - _pages/Lou_Zhou_Resume.pdf
 include:
     - _pages
     - projects
