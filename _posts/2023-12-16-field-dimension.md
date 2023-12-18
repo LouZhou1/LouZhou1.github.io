@@ -20,20 +20,20 @@ Through the team’s ID numbers as well as the date of the game, we can find the
 
 Since the x and y coordinates of both the originating and destination of the pass are considered in terms of percentage from the goal, we can use the size of the home stadium to find the true distance traveled for each pass. 
 
-![Coords](assets/FieldPitchAnalysis/FieldPitchdf2.png)
+![Coords](/assets/fieldpitch/FieldPitchdf2.png)
 
 
 We then find the average passing distance for both teams for each game, using the game_id parameter:
 
-![AvgPass](/assets/FieldPitchAnalysis/FieldPitchdf3.png)
+![AvgPass](/assets/fieldpitch/FieldPitchdf3.png)
 
 By filtering for home games and away games at fields of different sizes as the team’s home field, we can use the groupby pandas function to find the average passing distance for each manager under the conditions that we need.
 
-![PerCoach](/assets/FieldPitchAnalysis/FieldPitchdf4.png)
+![PerCoach](/assets/fieldpitch/FieldPitchdf4.png)
 
 ### Results
 *i. Longer Field*
-![LongerField](/assets/FieldPitchAnalysis/Longerfield.png)
+![LongerField](/assets/fieldpitch/Longerfield.png)
 
 Mean Change: +1.064 meters
 
@@ -44,7 +44,7 @@ However, since there is only one field that is longer than the standard Premier 
 The only teams who have played a substantial portion of their season on longer fields are Ronald Koeman’s Everton, Jurgen Klopp’s Liverpool, and Frank de Boer’s Crystal Palace, where Koeman and Klopp’s teams have very little change while de Boer’s teams play more direct, so it is more than likely that teams either do not change how direct they play or begin to play much more direct, as there is more space to play into.
 
 *ii. Shorter Field*
-![ShorterField](/assets/FieldPitchAnalysis/Shorterfield.png)
+![ShorterField](/assets/fieldpitch/Shorterfield.png)
 
 Mean: -1.845 meters
 
@@ -53,7 +53,7 @@ Since there are more stadiums that are shorter than the standard Premier League 
 This difference follows since there is less space to play into, meaning that it would not make sense to play a long, direct style of soccer. However, there are some notable exceptions, like Pep Guardiola’s Manchester City and Marco Silva’s Watford, whose average passing distance rises when playing on shorter fields. This exception is seen especially heavily in Slaven Bilic’s teams, where the average passing distance rises over 10 meters compared to home form. The exact reason for this difference is a mystery, but it may be a stylistic change for those games.
 
 *iii. Wider Field*
-![WiderField](/assets/FieldPitchAnalysis/Widerfield.png)
+![WiderField](/assets/fieldpitch/Widerfield.png)
 
 Mean: +0.160 meters
 
@@ -63,7 +63,7 @@ Based on the current data, it is more than likely that a wider field has negligi
 
 *iv. Narrower Fields*
 
-![NarrowerField](/assets/FieldPitchAnalysis/Narrowerfield.png)
+![NarrowerField](/assets/fieldpitch/Narrowerfield.png)
 
 Mean: -0.937 meters
 
@@ -71,7 +71,7 @@ Because there are only two fields that are wider than the standard Premier Leagu
 
 *v. Same Field Dimensions*
 
-![SameField](/assets/FieldPitchAnalysis/Samefield.png)
+![SameField](/assets/fieldpitch/Samefield.png)
 
 Mean: +0.216 meters
 
