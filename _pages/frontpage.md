@@ -6,7 +6,7 @@ title: About Me
 
 Hello! My name is Lou Zhou and I am a current Freshman at Rice University double majoring in Statistics and Sports Analytics. I'm originally from Memphis, Tennessee, graduating from Memphis University School in 2023.
 
-Having played soccer since I was 5, I'm a huge sports fan, and I'm particularly interested in the applications of statistics to answer questions in the sports world. I try to investigate any problems that I find interesting in my [blog]({% link blog.md %}).
+Having played soccer since I was 5, I'm a huge sports fan, and I'm particularly interested in the applications of statistics to answer questions in the sports world. I try to investigate any problems that I find interesting in my [blog]({blog.md}).
 
 Currently, I work as a technical team analyst for the Rice Sports Analytics Team(RSAT) where we provide major data analytics decisions and insights for Rice Athletics. Right now, I am working on analyzing the correlation between practice intensity and offensive line performance, trying to find the optimal practice intensity for the Offensive Line to maximize output in games. I also work as a research assistant under the mentorship of Dr. Scott Powers in his lab, where I will be working on a soccer-related project starting next academic year.
 
