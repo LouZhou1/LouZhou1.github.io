@@ -5,7 +5,7 @@ title: Projects
 ---
 I consider projects to be large, long-term undertakings done usually in a group. These projects are usually created as a submission for a data science competition, but some can be made for own personal interest.
 
-## Breaking the Cycle: Reducing Recidivism in Iowa State Prisons -- May 2023 [[Project]]({% link /projects/MTFC 2023.pdf %}){:target="_blank"}
+## Breaking the Cycle: Reducing Recidivism in Iowa State Prisons(May 2023)[[Write-up]]({% link /projects/MTFC 2023.pdf %}){:target="_blank"}
 
 This group project evaluates the factors contributing to prison recidivism and looks to predict the total fiscal cost of recidivism for the May 2023 population of the Iowa state prison system. To do this, we created a binary classifier using a Feedforward Neural Network which would predict the probability that an inmate, given certain variables, would re-offend. 
 
@@ -17,7 +17,7 @@ For factor analysis, we used the SHAP(SHapley Additive exPlantations) library wh
 
 This project was created as a submission for the 2023 Modeling the Future Challenge(MTFC), where we finished 2nd place out of 227 teams, gaining a $15,000 team award as well as a publication in the 2023 edition of the Actuarial Clearing House publication.
 
-## Riding into the Future: Evaluating E-Bikes -- March 2023 [[Project]]({% link /projects/M3 2023.pdf %}){:target="_blank"}
+## Riding into the Future: Evaluating E-Bikes(March 2023)[[Write-up]]({% link /projects/M3 2023.pdf %}){:target="_blank"}
 
 This group project predicted the growth of electronic bikes in the United States as well as looked into the factors behind this growth. In addition, we looked to evaluate how this growth would affect carbon emissions in the near future.
 
@@ -27,7 +27,7 @@ In order to predict the effect on carbon emissions, we trained a Random Forest A
 
 This work was created as a submission for the 2023 Mathworks Math Modeling Challenge, where we were given 14 hours to analyze and produce a write-up of a data science problem. We received an Honorable Mention in Technical Computing, putting us in the top 3% of submissions.
 
-## Quantifying the Last Shot: Introducing DAWG -- January 2023[[Project]]({% link /projects/DAWG.pdf %}){:target="_blank"}
+## Quantifying the Last Shot: Introducing DAWG(January 2023)[[Write-up]]({% link /projects/DAWG.pdf %}){:target="_blank"}
 This project was my first real foray into data science. In this work, I looked to quantify the strength of a player's ability to hit last-second, potentially game-changing shots in the NBA. To do this, I created two metrics, a metric measuring the difficulty of the shot, as well as a metric measuring the importance of each shot.
 
 To measure the difficulty of the shot, I created an expected points metric(similar to soccer), which used a Random Forest to predict the odds of a shot attempt scoring and multiplied that prediction by the potential point value of that shot. To measure the importance of each shot, I looked into the reaction of Tweets regarding last shots with the potential to change the outcome of a game, running a sentiment analysis on every tweet relating to the shot or the player within 24 hours of the shot. The importance of the shot was then measured by how polarizing a shot was and was combined with the difference between the actual points and the expected points(from the Random Forest algorithm) to find a per-shot value.
