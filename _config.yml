@@ -16,7 +16,6 @@ show_excerpts: false
 
 minima:
   date_format: "%Y-%m-%d"
-  skin: dark
 
 # Minima: custom header links
 header_pages:
