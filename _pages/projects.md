@@ -13,7 +13,7 @@ To account for the difficulty of the tackle, we generated an xTackle model by ru
 
 In calculating PVWP, for each defensive tackling penalty, we found the odds of missing the tackle through our xTackle model and then ran the xYard model at the frame of first contact, eliminating the influence of the tackler by replacing them with the fourth closest defensive player.
 
-Although it is very rare for penalties to be beneficial for the defense, PVWP both covers those rare cases and discourages defenders from even considering intentionally executing dangerous tackles(like horse collar or tripping tackles) to prevent large yardage gains, preventing injury and making the game safer.
+Although it is very rare for penalties to be beneficial for the defense, PVWP both covers those rare cases and discourages defenders from even considering intentionally executing dangerous tackles(like horse collar or tripping tackles) to prevent large yardage gains, preventing injury and making the game safer. Additionally, we looked to be able for referees to be able to find the explanatory variables for both models in an instant replay situation(without the tracking data), so we limited our scope to variables that could be estimated through the instant replay system.
 
 This project was created as a submission to the 2024 Big Data Bowl as well as for [academic credit](https://courses.rice.edu/courses/!SWKSCAT.cat?p_action=COURSE&p_term=202420&p_crn=25347){:target="_blank"} through the Rice Department of Sports Management.
 
