@@ -17,6 +17,18 @@ Although it is very rare for penalties to be beneficial for the defense, PVWP bo
 
 This project was created as a submission to the 2024 Big Data Bowl as well as for academic credit(SMGT 499) through the Rice Department of Sports Management.
 
+## Breaking the Cycle: Reducing Recidivism in Iowa State Prisons(October 2022 - May 2023)[[Write-up]]({% link /projects/MTFC 2023.pdf %}){:target="_blank"}
+
+This group project evaluates the factors contributing to prison recidivism and looks to predict the total fiscal cost of recidivism for the May 2023 population of the Iowa state prison system. To do this, we created a binary classifier using a Feedforward Neural Network which would predict the probability that an inmate, given certain variables, would re-offend. 
+
+Since it was found that time-sensitive, county-level data(e.g. unemployment rate) affected recidivism rates, we fit distributions to model the length of an inmate's sentence, given the severity of the crime, and created regressions to model the county-level data at release time. We also used previous data to find the odds of an inmate committing a different severity of crime, given that they re-offend.
+
+These models were used in a Monte Carlo simulation, where for each trial, the simulation predicts the release month of each inmate and the county-level parameters at that time. Using these variables, a Feedforward Neural Network predicts the odds of recidivism. We also find what level of crime would be committed, given re-offense, for each crime. We would then find the expected cost of recidivism by multiplying all the odds of recidivism by the fiscal cost of the predicted severity of crime.
+
+For factor analysis, we used the SHAP(SHapley Additive exPlantations) library which used Shapley values from game theory to find which variables had the most effect on an inmate's probability of re-offense.
+
+This project was created as a submission for the 2023 Modeling the Future Challenge(MTFC), where we finished 2nd place out of 227 teams, gaining a $15,000 team award as well as a publication in the 2023 edition of the Actuarial Clearing House publication.
+
 ## Riding into the Future: Evaluating E-Bikes(March 2023)[[Write-up]]({% link /projects/M3 2023.pdf %}){:target="_blank"}
 
 This group project predicted the growth of electronic bikes in the United States as well as looked into the factors behind this growth. In addition, we looked to evaluate how this growth would affect carbon emissions in the near future.
