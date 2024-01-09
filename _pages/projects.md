@@ -14,6 +14,9 @@ To account for the difficulty of the tackle, we generated an xTackle model by ru
 In calculating PVWP, for each defensive tackling penalty, we found the odds of missing the tackle through our xTackle model and then ran the xYard model at the frame of first contact, eliminating the influence of the tackler by replacing them with the fourth closest defensive player.
 
 Although it is very rare for penalties to be beneficial for the defense, PVWP both covers those rare cases and discourages defenders from even considering intentionally executing dangerous tackles(like horse collar or tripping tackles) to prevent large yardage gains, preventing injury and making the game safer.
+
+This project was created as a submission to the 2024 Big Data Bowl as well as for academic credit(SMGT 499) through the Rice Department of Sports Management.
+
 ## Riding into the Future: Evaluating E-Bikes(March 2023)[[Write-up]]({% link /projects/M3 2023.pdf %}){:target="_blank"}
 
 This group project predicted the growth of electronic bikes in the United States as well as looked into the factors behind this growth. In addition, we looked to evaluate how this growth would affect carbon emissions in the near future.
