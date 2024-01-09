@@ -15,7 +15,7 @@ In calculating PVWP, for each defensive tackling penalty, we found the odds of m
 
 Although it is very rare for penalties to be beneficial for the defense, PVWP both covers those rare cases and discourages defenders from even considering intentionally executing dangerous tackles(like horse collar or tripping tackles) to prevent large yardage gains, preventing injury and making the game safer. Additionally, we looked to be able for referees to be able to find the explanatory variables for both models in an instant replay situation(without the tracking data), so we limited our scope to variables that could be estimated through the instant replay system.
 
-This project was created as a submission to the 2024 Big Data Bowl as well as for [academic credit](https://courses.rice.edu/courses/!SWKSCAT.cat?p_action=COURSE&p_term=202420&p_crn=25347){:target="_blank"} through the Rice Department of Sports Management.
+This project was created as a submission to the 2024 Big Data Bowl as well as for [academic credit](https://courses.rice.edu/courses/!SWKSCAT.cat?p_action=COURSE&p_term=202420&p_crn=25347){:target="_blank"} through the Rice Department of Sport Management.
 
 ## Breaking the Cycle: Reducing Recidivism in Iowa State Prisons(October 2022 - May 2023)[[Write-up]]({% link /projects/MTFC 2023.pdf %}){:target="_blank"}
 
