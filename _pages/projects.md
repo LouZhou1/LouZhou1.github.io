@@ -5,7 +5,7 @@ title: Projects
 ---
 I consider projects to be large, long-term undertakings done usually in a group. These projects are usually created as a submission for a data science competition, but some can be made for own personal interest.
 
-## Play Value Without Penalty(October 2023 - January 2024)[[Write-up]]({https://www.kaggle.com/code/louzhou/pvwpbigdatabowl}){:target="_blank"}
+## Play Value Without Penalty(October 2023 - January 2024)[[Write-up]](https://www.kaggle.com/code/louzhou/pvwpbigdatabowl){:target="_blank"}
 
 This group project looked to propose a new way for the NFL to punish tackling penalties by proposing a new metric, Play Value Without Penalty(PVWP), which looks into situations where it would be beneficial for defenders to intentionally commit a penalty to prevent a large yardage gain by accounting for both the difficulty of performing a legal tackle(instead of the penalty) as well as the potential yardage gain of the play without the influence of the tackler(who drew the penalty). If the PVWP exceeded the normal yardage penalty of the foul, then the PVWP value should be the yardage penalty.
 
