@@ -12,7 +12,7 @@ Currently, I work as a technical team analyst for the Rice Sports Analytics Team
 
 Previously, I've worked as an intern for the Shelby County Election Commission where I developed two in-house Python programs that amalgamated and cleaned previous precinct data to match up with redrawn districts, and as an intern for the Air Force Research Laboratory(AFRL), where I used computer vision to create a Python script which would find certain objects of interest in a busy image using a normalized cross-correlation algorithm to prepare images from training in a machine learning algorithm.
 
-I'm lucky enough to be a student at the Rice Department of Sport Management, which has allowed me to do some cool things in the sports world. I've worked as a talent escort for the 2023 NHL Awards in Nashville, and I will be working backstage during the 2024 College Football National Championship in January.
+I'm lucky enough to be a student at the Rice Department of Sport Management, which has allowed me to do some cool things in the sports world. I've worked as a talent escort for the 2023 NHL Awards in Nashville, backstage during the 2024 College Football National Championship in January, and I will be working for the Savannah Bananas when they come to Houston this March.
 
 Outside of statistics, I enjoy woodworking, gardening(and cooking using what I've grown), and playing soccer.
 
