@@ -5,18 +5,15 @@ title: Projects
 ---
 I consider projects to be large, long-term undertakings done usually in a group. These projects are usually created as a submission for a data science competition, but some can be made for own personal interest.
 
-## Breaking the Cycle: Reducing Recidivism in Iowa State Prisons(October 2022 - May 2023)[[Write-up]]({% link /projects/MTFC 2023.pdf %}){:target="_blank"}
+## Play Value Without Penalty(October 2023 - January 2024)[[Write-up]]({https://www.kaggle.com/code/louzhou/pvwpbigdatabowl}){:target="_blank"}
 
-This group project evaluates the factors contributing to prison recidivism and looks to predict the total fiscal cost of recidivism for the May 2023 population of the Iowa state prison system. To do this, we created a binary classifier using a Feedforward Neural Network which would predict the probability that an inmate, given certain variables, would re-offend. 
+This group project looked to propose a new way for the NFL to punish tackling penalties by proposing a new metric, Play Value Without Penalty(PVWP), which looks into situations where it would be beneficial for defenders to intentionally commit a penalty to prevent a large yardage gain by accounting for both the difficulty of performing a legal tackle(instead of the penalty) as well as the potential yardage gain of the play without the influence of the tackler(who drew the penalty). If the PVWP exceeded the normal yardage penalty of the foul, then the PVWP value should be the yardage penalty.
 
-Since it was found that time-sensitive, county-level data(e.g. unemployment rate) affected recidivism rates, we fit distributions to model the length of an inmate's sentence, given the severity of the crime, and created regressions to model the county-level data at release time. We also used previous data to find the odds of an inmate committing a different severity of crime, given that they re-offend.
+To account for the difficulty of the tackle, we generated an xTackle model by running a Random Forest in a strictly one-on-one situation between the tackler and the ball carrier and found the probability that the defender would miss the tackle. For the yardage gain of the play, we generated an xYard model by running another Random Forest which used tracking data of the nearest three defenders and nearest two offensive players(on top of the ball carrier) to predict how many yards a play would generate.
 
-These models were used in a Monte Carlo simulation, where for each trial, the simulation predicts the release month of each inmate and the county-level parameters at that time. Using these variables, a Feedforward Neural Network predicts the odds of recidivism. We also find what level of crime would be committed, given re-offense, for each crime. We would then find the expected cost of recidivism by multiplying all the odds of recidivism by the fiscal cost of the predicted severity of crime.
+In calculating PVWP, for each defensive tackling penalty, we found the odds of missing the tackle through our xTackle model and then ran the xYard model at the frame of first contact, eliminating the influence of the tackler by replacing them with the fourth closest defensive player.
 
-For factor analysis, we used the SHAP(SHapley Additive exPlantations) library which used Shapley values from game theory to find which variables had the most effect on an inmate's probability of re-offense.
-
-This project was created as a submission for the 2023 Modeling the Future Challenge(MTFC), where we finished 2nd place out of 227 teams, gaining a $15,000 team award as well as a publication in the 2023 edition of the Actuarial Clearing House publication.
-
+Although it is very rare for penalties to be beneficial for the defense, PVWP both covers those rare cases and discourages defenders from even considering intentionally executing dangerous tackles(like horse collar or tripping tackles) to prevent large yardage gains, preventing injury and making the game safer.
 ## Riding into the Future: Evaluating E-Bikes(March 2023)[[Write-up]]({% link /projects/M3 2023.pdf %}){:target="_blank"}
 
 This group project predicted the growth of electronic bikes in the United States as well as looked into the factors behind this growth. In addition, we looked to evaluate how this growth would affect carbon emissions in the near future.
