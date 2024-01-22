@@ -5,6 +5,16 @@ title: Projects
 ---
 I consider projects to be large, long-term undertakings done usually in a group. These projects are usually created as a submission for a data science competition, but some can be made for own personal interest.
 
+## Team Coin Flip: Travel Fatigue and Performance(January 2024)[[Project Submission]](https://devpost.com/software/team-coin-flip-travel-fatigue-and-performance){:target="_blank"}
+
+This group project looked to determine whether an MLB team's travel schedule and fatigue had any effect on a team's in game performance. Initially through our exploratory data analysis, we found that there was significant evidence for the prevelance of home-field advantage, and, through a Granger Causality Test, we found that there was no evidence to support causality between the distance travelled by a team, and their offensive and defensive on-base percentage(OBA).
+
+We looked to get a baseline understanding of a team's ability by developing an ELO ranking system derived from 538's NFL ELO system, accounting for margin of victory and pitching form. Additionally, two scalars which controlled the extent of ELO change were found by determining what the scalars were when the AUC-ROC score was highest.
+
+We then used ELO and a mixture of fatigue metrics(distance travelled, jet lag, days away team has been on the road, and the difference in travel direction for both teams) in an XGBoost model which looked to predict the probability of the home team winning for each game. Through a feature analysis, we found that the fatigue metrics had very little effect on the model's predictions, concluding that fatigue and travel had very little effect on a team's in game performance.
+
+This project was a submission for the 36-hour 2024 Rice Datathon, where we finished 2nd place overall out of 59 teams.
+
 ## Play Value Without Penalty(October 2023 - January 2024)[[Write-up]](https://www.kaggle.com/code/louzhou/pvwpbigdatabowl){:target="_blank"}
 
 This group project looked to propose a new way for the NFL to punish tackling penalties by proposing a new metric, Play Value Without Penalty(PVWP), which looks into situations where it would be beneficial for defenders to intentionally commit a penalty to prevent a large yardage gain by accounting for both the difficulty of performing a legal tackle(instead of the penalty) as well as the potential yardage gain of the play without the influence of the tackler(who drew the penalty). If the PVWP exceeded the normal yardage penalty of the foul, then the PVWP value should be the yardage penalty.
